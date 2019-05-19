@@ -1,8 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <head>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <script src="{% static 'js/app.js' %}" defer></script>
     <title>Test</title>
 </head>
 <body>
-    <h1>Hey buddy!</h1>
+    <button id="searchBtn">Search</button>
 </body>
 </html>
